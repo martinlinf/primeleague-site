@@ -1,61 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Contact PRIME LEAGUE LLC in Arcadia, California.">
     <title>Contact — PRIME LEAGUE LLC</title>
+    <meta name="description" content="Contact PRIME LEAGUE LLC, an independent game studio in Arcadia, California.">
+    <meta name="theme-color" content="#07080D">
+    <meta property="og:title" content="Contact — PRIME LEAGUE LLC">
+    <meta property="og:description" content="Contact PRIME LEAGUE LLC, an independent game studio in Arcadia, California.">
+    <meta property="og:image" content="https://primeleague.net/og-image.png">
+    <meta property="og:url" content="https://primeleague.net/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header">
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header solid">
       <div class="wrap">
-        <a class="brand" href="index.html">
-          <span class="brand-mark" aria-hidden="true">PL</span>
-          <span class="brand-text">
-            <span class="brand-name">PRIME LEAGUE</span>
-            <span class="brand-legal">LLC</span>
-          </span>
+        <a class="brand" href="index.html" aria-label="PRIME LEAGUE LLC — home">
+          <img src="logo-mark.svg" alt="" width="34" height="34">
+          <span class="brand-name">PRIME LEAGUE<small>LLC · GAME STUDIO</small></span>
         </a>
-        <nav class="nav" aria-label="Primary">
-          <a href="index.html">Home</a>
-          <a href="index.html#games">Games</a>
-          <a href="contact.html" aria-current="page">Contact</a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="index.html#studio">Studio</a>
+          <a href="index.html#games">What we make</a>
           <a href="privacy.html">Privacy</a>
+          <a class="btn btn-primary btn-sm" href="contact.html" aria-current="page">Contact us <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
         </nav>
       </div>
     </header>
     <main>
       <header class="page-head">
+        <div class="hero-bg" aria-hidden="true" style="position:absolute;inset:0;z-index:-1"><div class="glow glow-a"></div><div class="floor" style="opacity:.6"></div></div>
         <div class="wrap">
-          <p class="kicker">PRIME LEAGUE LLC</p>
+          <span class="eyebrow mono"><span class="dot"></span>PRIME LEAGUE LLC</span>
           <h1>Contact</h1>
-          <p class="meta">We welcome inquiries about the studio, our games, and partnership or press requests.</p>
+          <p>We welcome inquiries about the studio, our games, support, partnerships, and press.</p>
         </div>
       </header>
-
-      <section class="section contact-details">
+      <section class="section" style="padding-top:80px">
         <div class="wrap">
-          <div class="details">
-            <div class="detail-card">
-              <h3>Legal name</h3>
-              <p>PRIME LEAGUE LLC</p>
+          <div class="contact-wrap">
+            <div class="cta-card">
+              <div><h3>Write to us.</h3><p>Email is the fastest way to reach the team. We aim to reply within a few business days.</p></div>
+              <a class="mail" href="mailto:info@primeleague.net" data-email>info@primeleague.net</a>
             </div>
-            <div class="detail-card">
-              <p class="label">Registered address</p>
-              <address>
-                400 S BALDWIN AVE, #102<br>
-                ARCADIA, CA 91007<br>
-                United States
-              </address>
-            </div>
-            <div class="detail-card">
-              <h3>Phone</h3>
-              <p><a href="tel:+16268733579">(626) 873-3579</a></p>
-            </div>
-            <div class="detail-card">
-              <h3>Email</h3>
-              <p><a href="mailto:info@primeleague.net" data-email>info@primeleague.net</a></p>
+            <div class="facts">
+              <div class="fact"><span class="mono">Legal name</span><p>PRIME LEAGUE LLC</p></div>
+              <div class="fact"><span class="mono">Entity</span><p>California limited liability company</p></div>
+              <div class="fact"><span class="mono">Registered address</span><address>400 S Baldwin Ave, #102<br>Arcadia, CA 91007<br>United States</address></div>
+              <div class="fact"><span class="mono">Phone</span><p><a href="tel:+16268733579">(626) 873-3579</a></p></div>
+              <div class="fact"><span class="mono">Email</span><p><a href="mailto:info@primeleague.net" data-email>info@primeleague.net</a></p></div>
+              <div class="fact"><span class="mono">Website</span><p><a href="https://primeleague.net">primeleague.net</a></p></div>
             </div>
           </div>
         </div>
@@ -63,26 +66,33 @@
     </main>
     <footer class="site-footer">
       <div class="wrap">
-        <div class="footer-grid">
+        <div class="footer-top">
           <div>
-            <p class="legal-name">PRIME LEAGUE LLC</p>
-            <address>
-              400 S BALDWIN AVE, #102<br>
-              ARCADIA, CA 91007<br>
-              United States
-            </address>
+            <a class="brand" href="index.html"><img src="logo-mark.svg" alt="" width="42" height="42"><span class="brand-name">PRIME LEAGUE<small>LLC · GAME STUDIO</small></span></a>
+            <p>PRIME LEAGUE LLC is an independent game development studio based in Arcadia, California, making original games for PC and Apple platforms.</p>
           </div>
-          <nav class="footer-nav" aria-label="Footer">
-            <a href="index.html">Home</a>
-            <a href="index.html#games">Games</a>
+          <div class="footer-col">
+            <span class="mono">Company</span>
+            <a href="index.html#studio">Studio</a>
+            <a href="index.html#games">What we make</a>
             <a href="contact.html">Contact</a>
             <a href="privacy.html">Privacy Policy</a>
+          </div>
+          <div class="footer-col">
+            <span class="mono">Reach us</span>
+            <address>PRIME LEAGUE LLC<br>400 S Baldwin Ave, #102<br>Arcadia, CA 91007<br>United States</address>
+            <a href="tel:+16268733579">(626) 873-3579</a>
             <a href="mailto:info@primeleague.net" data-email>info@primeleague.net</a>
-          </nav>
+          </div>
         </div>
-        <p class="copyright">&copy; 2026 PRIME LEAGUE LLC</p>
+        <div class="footer-giant" aria-hidden="true">PRIME LEAGUE</div>
+        <div class="footer-bottom">
+          <span>&copy; <span data-year>2026</span> PRIME LEAGUE LLC. All rights reserved.</span>
+          <span>Arcadia, California · <a href="privacy.html">Privacy Policy</a></span>
+        </div>
       </div>
     </footer>
     <script src="config.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

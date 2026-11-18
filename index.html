@@ -1,84 +1,188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="PRIME LEAGUE LLC is an independent game development studio based in Arcadia, California. We create games for PC and Apple platforms.">
     <title>PRIME LEAGUE LLC — Independent Game Studio</title>
+    <meta name="description" content="PRIME LEAGUE LLC is an independent game development studio in Arcadia, California, creating original games for PC (Steam) and Apple platforms.">
+    <meta name="theme-color" content="#07080D">
+    <meta property="og:title" content="PRIME LEAGUE LLC — Independent Game Studio">
+    <meta property="og:description" content="PRIME LEAGUE LLC is an independent game development studio in Arcadia, California, creating original games for PC (Steam) and Apple platforms.">
+    <meta property="og:image" content="https://primeleague.net/og-image.png">
+    <meta property="og:url" content="https://primeleague.net/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="grain" aria-hidden="true"></div>
     <header class="site-header">
       <div class="wrap">
-        <a class="brand" href="index.html">
-          <span class="brand-mark" aria-hidden="true">PL</span>
-          <span class="brand-text">
-            <span class="brand-name">PRIME LEAGUE</span>
-            <span class="brand-legal">LLC</span>
-          </span>
+        <a class="brand" href="index.html" aria-label="PRIME LEAGUE LLC — home">
+          <img src="logo-mark.svg" alt="" width="34" height="34">
+          <span class="brand-name">PRIME LEAGUE<small>LLC · GAME STUDIO</small></span>
         </a>
-        <nav class="nav" aria-label="Primary">
-          <a href="index.html" aria-current="page">Home</a>
-          <a href="index.html#games">Games</a>
-          <a href="contact.html">Contact</a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span></button>
+        <nav class="nav" id="site-nav" aria-label="Primary">
+          <a href="index.html#studio">Studio</a>
+          <a href="index.html#games">What we make</a>
           <a href="privacy.html">Privacy</a>
+          <a class="btn btn-primary btn-sm" href="contact.html">Contact us <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
         </nav>
       </div>
     </header>
     <main>
       <section class="hero">
+        <div class="hero-bg" aria-hidden="true"><div class="glow glow-a"></div><div class="glow glow-b"></div><div class="floor"></div></div>
+        <div class="wrap hero-grid">
+          <div>
+            <span class="eyebrow mono reveal"><span class="dot"></span>Independent game studio · Arcadia, CA</span>
+            <h1 class="reveal d1">Play is <span class="stroke">serious</span><br><span class="hl">business.</span></h1>
+            <p class="hero-lead reveal d2"><strong>PRIME LEAGUE LLC</strong> is an independent studio crafting original games for PC and Apple platforms — built with care, designed for players, and made to last.</p>
+            <div class="hero-actions reveal d3">
+              <a class="btn btn-primary" href="#games">What we make <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+              <a class="btn btn-ghost" href="contact.html">Get in touch</a>
+            </div>
+          </div>
+          <div class="emblem reveal d2" aria-hidden="true">
+            <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+            <div class="orbit"><i></i></div><div class="orbit o2"><i></i></div>
+            <div class="core"><img src="logo-mark.svg" alt=""></div>
+            <div class="tag t1"><span class="dot"></span><b>Project 01</b> · in development</div>
+            <div class="tag t2">PC · Steam · Apple</div>
+          </div>
+        </div>
+        <div class="scroll-cue mono" aria-hidden="true">Scroll</div>
+      </section>
+
+      <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>Original games</span><span>PC</span><span>Steam</span><span>Mac</span><span>iPhone</span><span>iPad</span><span>Independent</span><span>Arcadia, California</span><span>Original games</span><span>PC</span><span>Steam</span><span>Mac</span><span>iPhone</span><span>iPad</span><span>Independent</span><span>Arcadia, California</span></div></div>
+
+      <section class="section" id="studio" aria-labelledby="studio-heading">
         <div class="wrap">
-          <p class="kicker">Independent Game Development Studio</p>
-          <h1>PRIME LEAGUE LLC</h1>
-          <p class="hero-lead">PRIME LEAGUE LLC is an independent studio based in Arcadia, California. We develop original games for PC, including Steam, and applications and games for Apple platforms.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#games">Our games</a>
-            <a class="btn btn-ghost" href="contact.html">Contact us</a>
+          <div class="sec-head">
+            <span class="sec-num mono">01 — Studio</span>
+            <div>
+              <h2 id="studio-heading" class="reveal">A small studio with a <em>big</em> standard for play.</h2>
+              <p class="reveal d1">PRIME LEAGUE LLC is a California limited liability company that designs, develops, and publishes interactive entertainment. We focus on original ideas, tight game feel, and polish you can notice in every second of play.</p>
+            </div>
+          </div>
+          <div class="pillars">
+            <article class="pillar reveal"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></div><h3>Craft first</h3><p>We iterate until the controls feel right and every system earns its place. Quality over quantity, always.</p></article>
+            <article class="pillar reveal d1"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6"/><path d="M6 12h4M8 10v4"/><circle cx="16" cy="11" r="1" fill="currentColor"/><circle cx="18" cy="13" r="1" fill="currentColor"/></svg></div><h3>Player-respecting</h3><p>Fair design, clear pricing, and no dark patterns. We build the kind of games we want to play ourselves.</p></article>
+            <article class="pillar reveal d2"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Built to last</h3><p>We support what we ship — with updates, fixes, and direct, responsive support from the team that made it.</p></article>
           </div>
         </div>
       </section>
 
-      <section class="section" id="about" aria-labelledby="about-heading">
+      <section class="section" id="games" aria-labelledby="games-heading" style="padding-top:40px">
         <div class="wrap">
-          <h2 id="about-heading">About</h2>
-          <p class="section-intro">PRIME LEAGUE LLC is a United States limited liability company. We design, develop, and publish interactive entertainment and related software for personal computers and mobile devices.</p>
-          <p class="section-intro">Our work is intended for distribution through established storefronts such as Steam and the Apple App Store, under the legal name <strong>PRIME LEAGUE LLC</strong>.</p>
+          <div class="sec-head">
+            <span class="sec-num mono">02 — What we make</span>
+            <div>
+              <h2 id="games-heading" class="reveal">Original games for the screens <em>you</em> play on.</h2>
+              <p class="reveal d1">We develop for desktop and mobile, and distribute through trusted storefronts so players can buy, download, and update with confidence.</p>
+            </div>
+          </div>
+          <div class="platforms">
+            <article class="plat plat-pc reveal"><svg class="big" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              <div class="chips"><span class="chip">Windows</span><span class="chip">Steam</span></div>
+              <div>
+                <h3>PC &amp; Steam</h3>
+                <p>Full-featured PC games with the depth, controls, and performance desktop players expect.</p>
+                <ul><li>Keyboard, mouse &amp; controller support</li><li>Distributed through Steam</li><li>Regular updates &amp; patches</li></ul>
+              </div>
+            </article>
+            <article class="plat plat-apple reveal d1"><svg class="big" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
+              <div class="chips"><span class="chip">iPhone</span><span class="chip">iPad</span><span class="chip">Mac</span></div>
+              <div>
+                <h3>Apple platforms</h3>
+                <p>Games and apps designed for touch and on-the-go play, built natively for the Apple ecosystem.</p>
+                <ul><li>Designed for iPhone, iPad &amp; Mac</li><li>Distributed through the App Store</li><li>Privacy-conscious by design</li></ul>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="games" aria-labelledby="games-heading">
+      <section class="section" id="now" aria-labelledby="now-heading" style="padding-top:40px">
         <div class="wrap">
-          <h2 id="games-heading">Games</h2>
-          <p class="section-intro">We are building our first releases. When titles are ready to share, they will be listed here, along with links to Steam and the Apple App Store.</p>
-          <div class="coming-soon">
-            <strong>Coming soon</strong>
-            <p>Game announcements from PRIME LEAGUE LLC will appear on this page. Please check back later.</p>
+          <div class="sec-head">
+            <span class="sec-num mono">03 — In the works</span>
+            <div><h2 id="now-heading" class="reveal">Our first title is <em>in production.</em></h2></div>
+          </div>
+          <article class="devcard reveal">
+            <div class="art" aria-hidden="true"><div class="floor"></div><div class="scan"></div><div class="lock"><div>01</div></div></div>
+            <div class="info">
+              <span class="status mono"><span class="dot"></span>Project 01 · In development</span>
+              <h3>Something new is on the way.</h3>
+              <p>We are currently building our first original game. Details, platforms, and store pages will be announced here when we are ready to share more.</p>
+              <div class="progress mono" aria-hidden="true">
+                <div class="row"><span>Design</span><div class="bar"><i></i></div></div>
+                <div class="row"><span>Build</span><div class="bar"><i></i></div></div>
+                <div class="row"><span>Playtest</span><div class="bar"><i></i></div></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact" aria-labelledby="contact-heading" style="padding-top:40px">
+        <div class="wrap">
+          <div class="sec-head">
+            <span class="sec-num mono">04 — Contact</span>
+            <div><h2 id="contact-heading" class="reveal">Let's <em>talk.</em></h2></div>
+          </div>
+          <div class="contact-wrap">
+            <div class="cta-card reveal">
+              <div><h3>Partners, press &amp; players welcome.</h3><p>Questions about the studio, our games, business inquiries, or support — reach out and we will get back to you.</p></div>
+              <a class="mail" href="mailto:info@primeleague.net" data-email>info@primeleague.net</a>
+            </div>
+            <div class="facts reveal d1">
+              <div class="fact"><span class="mono">Legal name</span><p>PRIME LEAGUE LLC</p></div>
+              <div class="fact"><span class="mono">Entity</span><p>California limited liability company</p></div>
+              <div class="fact"><span class="mono">Address</span><address>400 S Baldwin Ave, #102<br>Arcadia, CA 91007<br>United States</address></div>
+              <div class="fact"><span class="mono">Phone</span><p><a href="tel:+16268733579">(626) 873-3579</a></p></div>
+              <div class="fact"><span class="mono">Email</span><p><a href="mailto:info@primeleague.net" data-email>info@primeleague.net</a></p></div>
+              <div class="fact"><span class="mono">Website</span><p><a href="https://primeleague.net">primeleague.net</a></p></div>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="site-footer">
       <div class="wrap">
-        <div class="footer-grid">
+        <div class="footer-top">
           <div>
-            <p class="legal-name">PRIME LEAGUE LLC</p>
-            <address>
-              400 S BALDWIN AVE, #102<br>
-              ARCADIA, CA 91007<br>
-              United States
-            </address>
+            <a class="brand" href="index.html"><img src="logo-mark.svg" alt="" width="42" height="42"><span class="brand-name">PRIME LEAGUE<small>LLC · GAME STUDIO</small></span></a>
+            <p>PRIME LEAGUE LLC is an independent game development studio based in Arcadia, California, making original games for PC and Apple platforms.</p>
           </div>
-          <nav class="footer-nav" aria-label="Footer">
-            <a href="index.html">Home</a>
-            <a href="index.html#games">Games</a>
+          <div class="footer-col">
+            <span class="mono">Company</span>
+            <a href="index.html#studio">Studio</a>
+            <a href="index.html#games">What we make</a>
             <a href="contact.html">Contact</a>
             <a href="privacy.html">Privacy Policy</a>
+          </div>
+          <div class="footer-col">
+            <span class="mono">Reach us</span>
+            <address>PRIME LEAGUE LLC<br>400 S Baldwin Ave, #102<br>Arcadia, CA 91007<br>United States</address>
+            <a href="tel:+16268733579">(626) 873-3579</a>
             <a href="mailto:info@primeleague.net" data-email>info@primeleague.net</a>
-          </nav>
+          </div>
         </div>
-        <p class="copyright">&copy; 2026 PRIME LEAGUE LLC</p>
+        <div class="footer-giant" aria-hidden="true">PRIME LEAGUE</div>
+        <div class="footer-bottom">
+          <span>&copy; <span data-year>2026</span> PRIME LEAGUE LLC. All rights reserved.</span>
+          <span>Arcadia, California · <a href="privacy.html">Privacy Policy</a></span>
+        </div>
       </div>
     </footer>
     <script src="config.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
